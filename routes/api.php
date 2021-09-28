@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('api')->get('/weather', 'Api\ApiController@getContent');
+Route::middleware('api')->get('/weather', 'Api\ApiController@teste');
